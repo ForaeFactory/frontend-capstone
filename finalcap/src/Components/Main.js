@@ -1,9 +1,13 @@
 import React from 'react';
 import '../Main.css';
+import Testimonials from '../Components/Testimonials';
+import About from '../Components/About';
+
 import HeroImage from '../Images/restauranfood.jpg';
 import SaladCard from '../Images/greek salad.jpg';
 import Bruschetta from '../Images/bruchetta.svg';
 import LemonCake from '../Images/lemon dessert.jpg';
+import Footer from './Footer';
 
 
 function Main() {
@@ -72,7 +76,7 @@ function Main() {
               <h4 className='specials-price'>$5.00</h4>
             </div>
               <p className='specials-desc'>
-                This comes straight from grandma's recipe book, every last 
+                This comes straight from grandma's recipe book, every last
                 ingredient has been sourced and is as authentic as can be imagined.
               </p>
               <button className='specials-order'>Order a delivery</button>
@@ -80,6 +84,8 @@ function Main() {
           </div>
         </div>
       </section>
+      <Testimonials />
+      <About />
     </>
   )
 }
