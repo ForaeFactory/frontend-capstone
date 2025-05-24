@@ -1,3 +1,5 @@
+import { BrowserRouter } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import './App.css';
 import Header from './Components/Header';
 import Nav from './Components/Nav';
@@ -6,12 +8,12 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
       <Nav />
       <Main />
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Footer.css';
+import '../Styles/Footer.css';
 import Logo from '../Images/Logo.svg';
 import FB from '../Images/fb-icon.png';
 import X from '../Images/tw-icon.png';
@@ -26,7 +26,7 @@ function Footer() {
         <p><b>123 Easy Street</b></p>
         <p><b>Chicago, IL 60652</b></p>
         <p><b>(555) 555-5555</b></p>
-        <p>contact@littlelemon.com</p>
+        <p><b>contact@littlelemon.com</b></p>
       </div>
       <div className='social'>
         <h6>Social</h6>

@@ -1,5 +1,4 @@
 import React from 'react';
-import '../About.css';
 import Restaurant from '../Images/restaurant.jpg';
 import Chefs from '../Images/Mario and Adrian A.jpg';
 

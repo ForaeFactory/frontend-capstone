@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Testimonials.css';
+import '../Styles/Testimonials.css';
 import Moe from '../Images/profile1.jpg';
 import Sara from '../Images/profile2.jpg';
 import Desmond from '../Images/profile3.jpg';
