@@ -11,8 +11,9 @@
     margin-bottom: 10px;
 }
 
-.nav li {
+.nav-link {
     display: inline;
+    color: black;
     margin: 20px;
     list-style-type: none;
     text-decoration: none;
@@ -23,4 +24,10 @@ li a {
     font-family: "Karla";
     font-weight: bold;
     text-decoration: none;
+}
+
+.nav ul{
+    display: flex;
+    color: black;
+    font-family: "Karla";
 }

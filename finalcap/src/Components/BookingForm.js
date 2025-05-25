@@ -44,7 +44,7 @@ function BookingForm({ date, times, dispatch, onSubmit }) {
    return (
       <form onSubmit={handleSubmit}>
          <label htmlFor="res-date">Choose date</label>
-         <input type="date" id="res-date" value={date} onChange={e => handleDateChange(e)} />
+         <input type="date" id="res-date" value={date} onChange={e => handleDateChange(e)} required />
          <label htmlFor="res-time">Choose time</label>
          <select id="res-time" onChange={(e) => handleTimeChange(e.target.value)}>
             {newTimes.map((time) => <option key={time}>{time}</option>)}
@@ -55,6 +55,7 @@ function BookingForm({ date, times, dispatch, onSubmit }) {
          <select id="occasion" onChange={(e) => handleOccasionChange(e.target.value)}>
             <option>Birthday</option>
             <option>Anniversary</option>
+            <option>None</option>
          </select>
          <input type="submit" value="Make Your reservation" onClick={handleClick} />
       </form>
